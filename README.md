@@ -16,7 +16,16 @@ This console application executes the following steps:
 4. It runs CAML queries in every folder to retrieve the documents (files). In a single query maximum 100 documents are retrieved, and the query is executed again and again until all documents are processed.
 5. If a document has multiple versions, they are deleted.
 
-## How to use it
+## How to use it (Executable)
+
+To use this to simply generate a csv file containing all versioned files. If you wish to use the tool to automatically delete, see the Source instruction instead
+
+1. Download the zip file from the Releases page
+2. Extract it to a folder
+3. Modify `configuration.xml` accordingly
+4. Execute the exe file
+
+## How to use it (Source)
 
 To use this sample follow these steps:
 
