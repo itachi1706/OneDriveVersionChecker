@@ -21,10 +21,11 @@ This console application executes the following steps:
 To use this sample follow these steps:
 
 1. Clone this repository.
-2. Open the `OneDriveVersionCleanerSolution.sln` solution in Visual Studio (written and tested with VS 2017).
-3. At the top of the `Main` method specify the URL of your cloud storage, your username and password, and the paths to the folders you want to process. If you have multifactor authentication enabled (you do, right?) you need to create an application password first (check the blog post mentioned in the Read more section below).
+2. Rename `defaults.xml` to `bin/configuration.xml` and replace the values inside accordingly. If you have multifactor authentication enabled (you do, right?) you need to create an application password first (check the blog post mentioned in the Read more section below).
+3. Open the `OneDriveVersionCleanerSolution.sln` solution in Visual Studio (written and tested with VS 2017).
 4. In line 124 uncomment the `file.Versions.DeleteAll()` call to actually delete the old versions.
 5. Run at your own risk.
+6. View 
 
 ## Read more
 
@@ -32,4 +33,4 @@ You can read the full story behind this code and other options to reduce the One
 
 ## About the author
 
-This sample was created by [György Balássy](https://linkedin.com/in/balassy).
+This sample was created by [György Balássy](https://linkedin.com/in/balassy) and has been improved along for console based usage.

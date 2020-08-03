@@ -42,6 +42,7 @@
       <HintPath>Lib\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -58,6 +59,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="configuration.xml" />
     <Content Include="Lib\Microsoft.SharePoint.Client.dll" />
     <Content Include="Lib\Microsoft.SharePoint.Client.Runtime.dll" />
   </ItemGroup>

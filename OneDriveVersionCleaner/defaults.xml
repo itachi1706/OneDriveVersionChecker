@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="Email" value="TODO@TODO.onmicrosoft.com" />
+    <add key="WebUrl" value="https://TODO.sharepoint.com/personal/TODO_onmicrosoft_com" />
+    <add key="Password" value="TODO@TODO.onmicrosoft.com" />
+    <add key="Root" value="/Documents" />
+    <add key="OutputDir" value="output.csv" />
+  </appSettings>
+</configuration>
